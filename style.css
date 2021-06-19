@@ -22,6 +22,7 @@ body {
     top: 0;
     left: 0;    
     padding: 5%;
+    /* padding: 1% 5% 5% 5%; */
     -webkit-box-shadow: 0px -1px 16px 1px #000000; 
     box-shadow: 0px -1px 16px 1px #000000;
 }
@@ -87,7 +88,7 @@ ul > li {
 .price-card {
     background-color: #fff;
     width: auto;
-    height: 90%;   
+    height: 85%;   
     margin: 1rem; 
     padding: 5%;
     border-radius: 5px;
@@ -97,6 +98,13 @@ ul > li {
 }
 
 
+#pro {
+    margin-top: 0;
+    height: 600px;
+    opacity: 1;
+    padding-top: 0;
+    padding-bottom: 10px;
+}
 
 @media only screen and (min-width: 769px) {
     .price-card:hover {
@@ -160,6 +168,7 @@ ul > li {
         z-index: 10;   
     }
 
+
     .price-card {        
         background-color: #fff;
         width: auto;
@@ -184,8 +193,7 @@ ul > li {
         padding-bottom: 1%;
     }
 
-    .price-card > div {
-        
+    .price-card > div {        
         height: auto;
     }
 
